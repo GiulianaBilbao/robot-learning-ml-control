@@ -1,2 +1,2 @@
 # MECS6616_Spring2025
-Robot Learning Assignments
+Robot Learning Projects
