@@ -18,18 +18,16 @@ Five projects applying machine learning to robot navigation, manipulation, and c
         >
         > ---
         >
-        > ### 🏆 [Project 4 — Diffusion Policy & Generative BC for Push-T Manipulation](./mecs6616_Spring2025_Project4_gc2905.ipynb)
-        > **Approach:** Implemented three behavioral cloning agents from scratch on the Push-T dexterous manipulation task, using receding-horizon control.
-        >
-        > - **Part I — Residual MLP:** Flattened observation history → action sequence prediction with MSE loss
-        > - - **Part II — CVAE Agent:** Conditional VAE with encoder/decoder, KL divergence loss (β-weighted), reparameterization trick
-        >   - - **Part III — Diffusion Policy (DDPM):** Implemented cosine noise schedule, forward/reverse diffusion, noise prediction network, and full denoising inference loop
-        >    
-        >     - > **Why it matters:** Implements DDPM and CVAE from scratch — directly relevant to generative approaches in foundation models and learned control policies.
-        >       >
-        >       > ---
-        >       >
-        >       > ### [Project 5 — Deep Q-Network (DQN) & PPO for Robot Arm Goal Reaching](./mecs6616_Spring2025_Project5_gc2905.ipynb)
+### 🏆 [Project 4 — Diffusion Policy & Generative BC for Push-T Manipulation](./mecs6616_Spring2025_Project4_gc2905.ipynb)
+**Approach:** Implemented three behavioral cloning agents from scratch on the Push-T dexterous manipulation task, using receding-horizon control.
+
+- **Part I — Residual MLP:** Flattened observation history → action sequence prediction with MSE loss
+- - **Part II — CVAE Agent:** Conditional VAE with encoder/decoder, KL divergence loss (β-weighted), reparameterization trick
+- - **Part III — Diffusion Policy (DDPM):** Implemented cosine noise schedule, forward/reverse diffusion, noise prediction network, and full denoising inference loop
+  
+- > **Why it matters:** Implements DDPM and CVAE from scratch — directly relevant to generative approaches in foundation models and learned control policies.
+
+### [Project 5 — Deep Q-Network (DQN) & PPO for Robot Arm Goal Reaching](./mecs6616_Spring2025_Project5_gc2905.ipynb)
         >       > **Approach:** Reinforcement learning applied to a robot arm reaching task using an OpenAI Gym-compatible environment.
         >       >
         >       > - **Part 1 — DQN from scratch:** Q-network, replay buffer, target network updates, ε-greedy exploration — no RL libraries
@@ -39,7 +37,8 @@ Five projects applying machine learning to robot navigation, manipulation, and c
         >       >     >
         >       >     > ---
         >       >     >
-        >       >     > ### [Project 2 — Neural Network Behavioral Cloning (2D Maze)](./mecs6616_Spring2025_Project2_gc2905.ipynb)
+
+### [Project 2 — Neural Network Behavioral Cloning (2D Maze)](./mecs6616_Spring2025_Project2_gc2905.ipynb)
         >       >     > **Approach:** Extended Project 1 with deep neural networks (PyTorch). Three parts:
         >       >     > - MLP policy on low-dimensional (x,y) observations
         >       >     > - - CNN policy on 64×64 RGB images
@@ -47,7 +46,8 @@ Five projects applying machine learning to robot navigation, manipulation, and c
         >       >     >    
         >       >     >     - ---
         >       >     >
-        >       >     > ### [Project 1 — Classical ML for Robot Navigation (2D Maze)](./gc2905_Spring2025_Project1.ipynb)
+
+### [Project 1 — Classical ML for Robot Navigation (2D Maze)](./gc2905_Spring2025_Project1.ipynb)
         >       >     > **Approach:** Applied classical scikit-learn methods to a 2D maze environment.
         >       >     > - Position regression from RGB images (localization)
         >       >     > - - Behavioral cloning from ground-truth positions
